@@ -1,4 +1,4 @@
-package com.example;
+package com.example.session;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,4 +1,4 @@
-package com.example;
+package com.example.session;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
