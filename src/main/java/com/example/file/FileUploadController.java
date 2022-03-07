@@ -25,6 +25,6 @@ public class FileUploadController {
             return;
         }
 
-        multipartFile.transferTo(new File( FILE_UPLOAD_DIRECTORY + "/", multipartFile.getOriginalFilename()));
+        multipartFile.transferTo(new File(FILE_UPLOAD_DIRECTORY + "/", multipartFile.getOriginalFilename()));
     }
 }
