@@ -1,7 +1,11 @@
 spring:
   servlet:
     multipart:
-      location: /Users/leejinseok/Study/spring-session/upload
       max-file-size: 5MB
       max-request-size: 15MB
 
+file:
+  download:
+    location: /Users/leejinseok/Study/spring-session/download
+  upload:
+    location: /Users/leejinseok/Study/spring-session/upload
