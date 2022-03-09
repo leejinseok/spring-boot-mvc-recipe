@@ -22,7 +22,7 @@ public class AuthService {
             throw new ApiException("존재하지 않는 사용자입니다.", HttpStatus.NOT_FOUND);
         }
 
-        boolean matched = PBKDF2Utils.validatePassword(loginDto.getPassword(), user.getPassword());
+        boolean matched = PBKDF2Utils.validate(loginDto.getPassword(), user.getPassword());
         if (!matched) {
             throw new ApiException("비밀번호가 일치하지 않습니다.", HttpStatus.BAD_REQUEST);
         }

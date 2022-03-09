@@ -1,4 +1,4 @@
-package com.example.file;
+package com.example.file.upload;
 
 import com.example.exception.ApiException;
 import java.io.BufferedInputStream;
@@ -27,7 +27,6 @@ public class FileUploadController {
 
     @Value("${file.upload.location}")
     private String FILE_UPLOAD_DIRECTORY;
-
 
     @PostMapping("/api/v1/file/upload")
     public void fileUpload(@RequestParam MultipartFile multipartFile) throws IOException {

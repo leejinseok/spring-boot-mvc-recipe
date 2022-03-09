@@ -1,4 +1,4 @@
-package com.example.file;
+package com.example.file.download;
 
 import com.example.exception.ApiException;
 import java.io.BufferedInputStream;

@@ -1,4 +1,4 @@
-package com.example.file;
+package com.example.file.download;
 
 import java.net.MalformedURLException;
 import javax.servlet.http.HttpServletResponse;
@@ -15,9 +15,9 @@ public class FileDownloadController {
 
     private final FileDownloadService fileDownloadService;
 
-    @GetMapping("/api/v1/file/download/url")
-    public void downloadFormUrl(@RequestParam String downloadUrl, HttpServletResponse servletResponse) throws MalformedURLException {
-        fileDownloadService.downloadFromUrl(downloadUrl, servletResponse);
+    @GetMapping("/api/v1/file/download")
+    public void downloadFormUrl(@RequestParam String url, HttpServletResponse servletResponse) throws MalformedURLException {
+        fileDownloadService.downloadFromUrl(url, servletResponse);
     }
 
 }

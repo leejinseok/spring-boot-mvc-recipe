@@ -6,6 +6,8 @@ spring:
 
 file:
   download:
-    location: /Users/leejinseok/Study/spring-session/download
+#    location: /Users/leejinseok/Study/spring-session/download
+    location: C:\Users\sonak\Study\spring-session-study\download
   upload:
-    location: /Users/leejinseok/Study/spring-session/upload
+#    location: /Users/leejinseok/Study/spring-session/upload
+    location: C:\Users\sonak\Study\spring-session-study\upload

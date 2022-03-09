@@ -1,4 +1,4 @@
-package com.example.file;
+package com.example.file.upload;
 
 import org.springframework.stereotype.Service;
 
